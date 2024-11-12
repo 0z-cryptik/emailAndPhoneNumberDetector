@@ -2,7 +2,7 @@ email_pattern: str = r"""(
     [a-zA-Z-0-9._%+!~-]+ # username
     @
     [a-zA-Z-0-9.-]+ # domain name
-    (\.[a-zA-Z]{2,4}) # dot something
+    \.[a-zA-Z]{2,} # dot something
 )"""
 phone_no_pattern: str = r"\+\d{13}|d{11}"
 
